@@ -1,0 +1,12 @@
+struct slam_pos_t
+{
+    int64_t utime;
+    double  rel_x;    // [mm] 
+    double  rel_y; // [mm] 
+    double  rel_theta; // [degree]
+	
+    double  abs_x;
+    double  abs_y;
+    double  abs_theta; 
+
+}

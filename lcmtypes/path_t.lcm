@@ -1,0 +1,6 @@
+struct path_t {
+
+    double abs_x;
+    double abs_y;
+    
+}

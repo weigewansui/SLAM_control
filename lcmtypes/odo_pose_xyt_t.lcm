@@ -1,0 +1,5 @@
+struct odo_pose_xyt_t
+{
+    int64_t utime;
+    double  xyt[3];     // x [mm], y [mm], theta [rad]
+}

@@ -1,0 +1,17 @@
+BOTLAB
+
+This directory should be the main place to store you projects for the botlab.  Included ar a few peices of skeleton code to help you get started. You may need to add/create additional files.
+
+the breezyslam library is a simple SLAM library written in c with python wrappers.  You must install it for python with the builting setup.py script
+
+	python setup.py build
+	sudo python setup.py install
+
+New LCM types may be defined in ../../lcmtypes and python versions can be generated with the make file in this directory.  They will appear in the lcmtypes directory in this directory, and can be imported with:
+
+	from lcmtypes import *
+
+additional python packages that need to be installed:
+
+	pygame
+	

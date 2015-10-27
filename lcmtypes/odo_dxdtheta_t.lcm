@@ -1,0 +1,7 @@
+struct odo_dxdtheta_t
+{
+    int64_t utime;
+    double  dxy;    // [mm] 
+    double  dtheta; // [radians] 
+    double  dt; // [s]
+}

@@ -1,0 +1,10 @@
+struct velocity_cmd_t
+{
+    int64_t utime;
+
+    double FwdSpeed; // [mm/s]
+    double AngSpeed; // [deg/s]
+
+    double Distance; //[mm]
+    double Angle;    //[degrees]
+}
